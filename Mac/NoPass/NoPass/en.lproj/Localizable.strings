@@ -1,0 +1,23 @@
+
+"MsgPleaseWait" = "Please wait...";
+
+"WordFree" = "Free";
+"WordOK" = "OK";
+"WordCancel" = "Cancel";
+"WordNAV" = "N/A";
+
+"MsgLinkedDropbox" = "Linked to Dropbox successfully.";
+"MsgUnlinkedDropbox" = "Unlinked Dropbox.";
+"MsgSynced" = "Merged map file was uploaded to Dropbox successfully.";
+"MsgUploaded" = "The file was uploaded to Dropbox successfully.";
+"MsgUploadError" = "Failed to upload file to Dropbox.";
+"MsgDownloadError" = "Failed to download file from Dropbox.";
+"MsgAlreadySynced" = "The remote map file in Dropbox is identical to the local map file.";
+
+"MsgMapNameIsNotGiven" = "The name of map data is not given.";
+
+"MsgUnlinkDropbox" = "Unlink Dropbox";
+"QueryUnlinkDropbox" = "If you unlink Dropbox you will be prompted to relink. Continue?";
+
+"MsgDeleteRecord" = "Deleting a record";
+"QueryDeleteRecord" = "The currently selected map data will be deleted. You can not restore deleted data. Continue?";

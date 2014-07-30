@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1316441B1952930300431C1F /* DropboxOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1316441A1952930300431C1F /* DropboxOSX.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1316441D195297A900431C1F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1316441C195297A900431C1F /* Security.framework */; };
+		1316441F195298D900431C1F /* DropboxOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1316441A1952930300431C1F /* DropboxOSX.framework */; };
+		1362B82719864426003C79C4 /* NoPass.dat in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB811980A8DB007ACFD6 /* NoPass.dat */; };
+		1399060B1936DDFE0015582A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399060A1936DDFE0015582A /* Cocoa.framework */; };
+		139906151936DDFE0015582A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 139906131936DDFE0015582A /* InfoPlist.strings */; };
+		139906231936DDFF0015582A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139906221936DDFF0015582A /* Images.xcassets */; };
+		1399062A1936DDFF0015582A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139906291936DDFF0015582A /* XCTest.framework */; };
+		1399062B1936DDFF0015582A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399060A1936DDFE0015582A /* Cocoa.framework */; };
+		13A5AB591980A6FD007ACFD6 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB421980A6FD007ACFD6 /* AppController.m */; };
+		13A5AB5A1980A6FD007ACFD6 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB441980A6FD007ACFD6 /* AppData.m */; };
+		13A5AB5B1980A6FD007ACFD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB461980A6FD007ACFD6 /* AppDelegate.m */; };
+		13A5AB5C1980A6FD007ACFD6 /* DropboxAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB491980A6FD007ACFD6 /* DropboxAPI.m */; };
+		13A5AB5E1980A6FD007ACFD6 /* MapDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB4C1980A6FD007ACFD6 /* MapDialog.m */; };
+		13A5AB601980A6FD007ACFD6 /* MyDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB4F1980A6FD007ACFD6 /* MyDropbox.m */; };
+		13A5AB611980A6FD007ACFD6 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB511980A6FD007ACFD6 /* MyTableView.m */; };
+		13A5AB621980A6FD007ACFD6 /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB531980A6FD007ACFD6 /* MyTextView.m */; };
+		13A5AB631980A6FD007ACFD6 /* SyncOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB551980A6FD007ACFD6 /* SyncOption.m */; };
+		13A5AB651980A6FD007ACFD6 /* Uty.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB581980A6FD007ACFD6 /* Uty.m */; };
+		13A5AB671980A710007ACFD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5AB661980A710007ACFD6 /* main.m */; };
+		13A5AB751980A7F5007ACFD6 /* dropbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB691980A7F5007ACFD6 /* dropbox.png */; };
+		13A5AB761980A7F5007ACFD6 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB6A1980A7F5007ACFD6 /* edit.png */; };
+		13A5AB771980A7F5007ACFD6 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB6B1980A7F5007ACFD6 /* eraser.png */; };
+		13A5AB781980A7F5007ACFD6 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB6C1980A7F5007ACFD6 /* new.png */; };
+		13A5AB791980A7F5007ACFD6 /* NoPass16.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB6D1980A7F5007ACFD6 /* NoPass16.png */; };
+		13A5AB7A1980A7F5007ACFD6 /* NoPass32.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB6E1980A7F5007ACFD6 /* NoPass32.png */; };
+		13A5AB7B1980A7F5007ACFD6 /* NoPass64.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB6F1980A7F5007ACFD6 /* NoPass64.png */; };
+		13A5AB7C1980A7F5007ACFD6 /* NoPass128.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB701980A7F5007ACFD6 /* NoPass128.png */; };
+		13A5AB7D1980A7F5007ACFD6 /* NoPass256.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB711980A7F5007ACFD6 /* NoPass256.png */; };
+		13A5AB7E1980A7F5007ACFD6 /* NoPass512.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB721980A7F5007ACFD6 /* NoPass512.png */; };
+		13A5AB7F1980A7F5007ACFD6 /* NoPassStatus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB731980A7F5007ACFD6 /* NoPassStatus@2x.png */; };
+		13A5AB801980A7F5007ACFD6 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB741980A7F5007ACFD6 /* remove.png */; };
+		13A5AB861980AA8A007ACFD6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB881980AA8A007ACFD6 /* Localizable.strings */; };
+		13A5AB911980B928007ACFD6 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB8F1980B928007ACFD6 /* Main.xib */; };
+		13A5AB991980C05D007ACFD6 /* MapDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A5AB971980C05D007ACFD6 /* MapDialog.xib */; };
+		13A5ABA51980D2C9007ACFD6 /* SyncOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A5ABA31980D2C9007ACFD6 /* SyncOption.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1399062C1936DDFF0015582A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139905FF1936DDFE0015582A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 139906061936DDFE0015582A;
+			remoteInfo = NoPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1316441E195298B200431C1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1316441F195298D900431C1F /* DropboxOSX.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		130F6461196C03DD004A6044 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		1316441A1952930300431C1F /* DropboxOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxOSX.framework; sourceTree = "<group>"; };
+		1316441C195297A900431C1F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		139906071936DDFE0015582A /* NoPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1399060A1936DDFE0015582A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1399060D1936DDFE0015582A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1399060E1936DDFE0015582A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1399060F1936DDFE0015582A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		139906121936DDFE0015582A /* NoPass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoPass-Info.plist"; sourceTree = "<group>"; };
+		139906181936DDFE0015582A /* NoPass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoPass-Prefix.pch"; sourceTree = "<group>"; };
+		139906221936DDFF0015582A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		139906281936DDFF0015582A /* NoPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		139906291936DDFF0015582A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13A5AB411980A6FD007ACFD6 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = src/AppController.h; sourceTree = "<group>"; };
+		13A5AB421980A6FD007ACFD6 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = src/AppController.m; sourceTree = "<group>"; };
+		13A5AB431980A6FD007ACFD6 /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppData.h; path = src/AppData.h; sourceTree = "<group>"; };
+		13A5AB441980A6FD007ACFD6 /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppData.m; path = src/AppData.m; sourceTree = "<group>"; };
+		13A5AB451980A6FD007ACFD6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = src/AppDelegate.h; sourceTree = "<group>"; };
+		13A5AB461980A6FD007ACFD6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = src/AppDelegate.m; sourceTree = "<group>"; };
+		13A5AB471980A6FD007ACFD6 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = src/Common.h; sourceTree = "<group>"; };
+		13A5AB481980A6FD007ACFD6 /* DropboxAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropboxAPI.h; path = src/DropboxAPI.h; sourceTree = "<group>"; };
+		13A5AB491980A6FD007ACFD6 /* DropboxAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DropboxAPI.m; path = src/DropboxAPI.m; sourceTree = "<group>"; };
+		13A5AB4B1980A6FD007ACFD6 /* MapDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapDialog.h; path = src/MapDialog.h; sourceTree = "<group>"; };
+		13A5AB4C1980A6FD007ACFD6 /* MapDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapDialog.m; path = src/MapDialog.m; sourceTree = "<group>"; };
+		13A5AB4E1980A6FD007ACFD6 /* MyDropbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyDropbox.h; path = src/MyDropbox.h; sourceTree = "<group>"; };
+		13A5AB4F1980A6FD007ACFD6 /* MyDropbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyDropbox.m; path = src/MyDropbox.m; sourceTree = "<group>"; };
+		13A5AB501980A6FD007ACFD6 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTableView.h; path = src/MyTableView.h; sourceTree = "<group>"; };
+		13A5AB511980A6FD007ACFD6 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTableView.m; path = src/MyTableView.m; sourceTree = "<group>"; };
+		13A5AB521980A6FD007ACFD6 /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTextView.h; path = src/MyTextView.h; sourceTree = "<group>"; };
+		13A5AB531980A6FD007ACFD6 /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTextView.m; path = src/MyTextView.m; sourceTree = "<group>"; };
+		13A5AB541980A6FD007ACFD6 /* SyncOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyncOption.h; path = src/SyncOption.h; sourceTree = "<group>"; };
+		13A5AB551980A6FD007ACFD6 /* SyncOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyncOption.m; path = src/SyncOption.m; sourceTree = "<group>"; };
+		13A5AB571980A6FD007ACFD6 /* Uty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Uty.h; path = src/Uty.h; sourceTree = "<group>"; };
+		13A5AB581980A6FD007ACFD6 /* Uty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Uty.m; path = src/Uty.m; sourceTree = "<group>"; };
+		13A5AB661980A710007ACFD6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		13A5AB691980A7F5007ACFD6 /* dropbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dropbox.png; path = img/dropbox.png; sourceTree = "<group>"; };
+		13A5AB6A1980A7F5007ACFD6 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = edit.png; path = img/edit.png; sourceTree = "<group>"; };
+		13A5AB6B1980A7F5007ACFD6 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eraser.png; path = img/eraser.png; sourceTree = "<group>"; };
+		13A5AB6C1980A7F5007ACFD6 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new.png; path = img/new.png; sourceTree = "<group>"; };
+		13A5AB6D1980A7F5007ACFD6 /* NoPass16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoPass16.png; path = img/NoPass16.png; sourceTree = "<group>"; };
+		13A5AB6E1980A7F5007ACFD6 /* NoPass32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoPass32.png; path = img/NoPass32.png; sourceTree = "<group>"; };
+		13A5AB6F1980A7F5007ACFD6 /* NoPass64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoPass64.png; path = img/NoPass64.png; sourceTree = "<group>"; };
+		13A5AB701980A7F5007ACFD6 /* NoPass128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoPass128.png; path = img/NoPass128.png; sourceTree = "<group>"; };
+		13A5AB711980A7F5007ACFD6 /* NoPass256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoPass256.png; path = img/NoPass256.png; sourceTree = "<group>"; };
+		13A5AB721980A7F5007ACFD6 /* NoPass512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoPass512.png; path = img/NoPass512.png; sourceTree = "<group>"; };
+		13A5AB731980A7F5007ACFD6 /* NoPassStatus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NoPassStatus@2x.png"; path = "img/NoPassStatus@2x.png"; sourceTree = "<group>"; };
+		13A5AB741980A7F5007ACFD6 /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = remove.png; path = img/remove.png; sourceTree = "<group>"; };
+		13A5AB811980A8DB007ACFD6 /* NoPass.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = NoPass.dat; path = img/NoPass.dat; sourceTree = "<group>"; };
+		13A5AB851980AA73007ACFD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A5AB871980AA8A007ACFD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		13A5AB891980ABD5007ACFD6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		13A5AB8A1980ABEE007ACFD6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A5AB901980B928007ACFD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Main.xib; sourceTree = "<group>"; };
+		13A5AB921980B930007ACFD6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/Main.xib; sourceTree = "<group>"; };
+		13A5AB981980C05D007ACFD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapDialog.xib; sourceTree = "<group>"; };
+		13A5AB9A1980C062007ACFD6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MapDialog.xib; sourceTree = "<group>"; };
+		13A5ABA41980D2C9007ACFD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SyncOption.xib; sourceTree = "<group>"; };
+		13A5ABA61980D2CF007ACFD6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/SyncOption.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139906041936DDFE0015582A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1316441D195297A900431C1F /* Security.framework in Frameworks */,
+				1316441B1952930300431C1F /* DropboxOSX.framework in Frameworks */,
+				1399060B1936DDFE0015582A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139906251936DDFF0015582A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1399062B1936DDFF0015582A /* Cocoa.framework in Frameworks */,
+				1399062A1936DDFF0015582A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139905FE1936DDFE0015582A = {
+			isa = PBXGroup;
+			children = (
+				139906101936DDFE0015582A /* NoPass */,
+				139906091936DDFE0015582A /* Frameworks */,
+				139906081936DDFE0015582A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		139906081936DDFE0015582A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139906071936DDFE0015582A /* NoPass.app */,
+				139906281936DDFF0015582A /* NoPassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139906091936DDFE0015582A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130F6461196C03DD004A6044 /* ApplicationServices.framework */,
+				1316441A1952930300431C1F /* DropboxOSX.framework */,
+				1316441C195297A900431C1F /* Security.framework */,
+				1399060A1936DDFE0015582A /* Cocoa.framework */,
+				139906291936DDFF0015582A /* XCTest.framework */,
+				1399060C1936DDFE0015582A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1399060C1936DDFE0015582A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1399060D1936DDFE0015582A /* AppKit.framework */,
+				1399060E1936DDFE0015582A /* CoreData.framework */,
+				1399060F1936DDFE0015582A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		139906101936DDFE0015582A /* NoPass */ = {
+			isa = PBXGroup;
+			children = (
+				13A5AB8F1980B928007ACFD6 /* Main.xib */,
+				13A5AB411980A6FD007ACFD6 /* AppController.h */,
+				13A5AB421980A6FD007ACFD6 /* AppController.m */,
+				13A5AB431980A6FD007ACFD6 /* AppData.h */,
+				13A5AB441980A6FD007ACFD6 /* AppData.m */,
+				13A5AB451980A6FD007ACFD6 /* AppDelegate.h */,
+				13A5AB461980A6FD007ACFD6 /* AppDelegate.m */,
+				13A5AB471980A6FD007ACFD6 /* Common.h */,
+				13A5AB481980A6FD007ACFD6 /* DropboxAPI.h */,
+				13A5AB491980A6FD007ACFD6 /* DropboxAPI.m */,
+				13A5AB971980C05D007ACFD6 /* MapDialog.xib */,
+				13A5AB4B1980A6FD007ACFD6 /* MapDialog.h */,
+				13A5AB4C1980A6FD007ACFD6 /* MapDialog.m */,
+				13A5AB4E1980A6FD007ACFD6 /* MyDropbox.h */,
+				13A5AB4F1980A6FD007ACFD6 /* MyDropbox.m */,
+				13A5AB501980A6FD007ACFD6 /* MyTableView.h */,
+				13A5AB511980A6FD007ACFD6 /* MyTableView.m */,
+				13A5AB521980A6FD007ACFD6 /* MyTextView.h */,
+				13A5AB531980A6FD007ACFD6 /* MyTextView.m */,
+				13A5ABA31980D2C9007ACFD6 /* SyncOption.xib */,
+				13A5AB541980A6FD007ACFD6 /* SyncOption.h */,
+				13A5AB551980A6FD007ACFD6 /* SyncOption.m */,
+				13A5AB571980A6FD007ACFD6 /* Uty.h */,
+				13A5AB581980A6FD007ACFD6 /* Uty.m */,
+				139906221936DDFF0015582A /* Images.xcassets */,
+				139906111936DDFE0015582A /* Supporting Files */,
+			);
+			path = NoPass;
+			sourceTree = "<group>";
+		};
+		139906111936DDFE0015582A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A5AB881980AA8A007ACFD6 /* Localizable.strings */,
+				13A5AB681980A7C6007ACFD6 /* img */,
+				13A5AB661980A710007ACFD6 /* main.m */,
+				139906121936DDFE0015582A /* NoPass-Info.plist */,
+				139906131936DDFE0015582A /* InfoPlist.strings */,
+				139906181936DDFE0015582A /* NoPass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A5AB681980A7C6007ACFD6 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				13A5AB691980A7F5007ACFD6 /* dropbox.png */,
+				13A5AB6A1980A7F5007ACFD6 /* edit.png */,
+				13A5AB6B1980A7F5007ACFD6 /* eraser.png */,
+				13A5AB6C1980A7F5007ACFD6 /* new.png */,
+				13A5AB6D1980A7F5007ACFD6 /* NoPass16.png */,
+				13A5AB6E1980A7F5007ACFD6 /* NoPass32.png */,
+				13A5AB6F1980A7F5007ACFD6 /* NoPass64.png */,
+				13A5AB701980A7F5007ACFD6 /* NoPass128.png */,
+				13A5AB711980A7F5007ACFD6 /* NoPass256.png */,
+				13A5AB721980A7F5007ACFD6 /* NoPass512.png */,
+				13A5AB731980A7F5007ACFD6 /* NoPassStatus@2x.png */,
+				13A5AB741980A7F5007ACFD6 /* remove.png */,
+				13A5AB811980A8DB007ACFD6 /* NoPass.dat */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		139906061936DDFE0015582A /* NoPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139906381936DDFF0015582A /* Build configuration list for PBXNativeTarget "NoPass" */;
+			buildPhases = (
+				139906031936DDFE0015582A /* Sources */,
+				139906041936DDFE0015582A /* Frameworks */,
+				139906051936DDFE0015582A /* Resources */,
+				1316441E195298B200431C1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoPass;
+			productName = NoPass;
+			productReference = 139906071936DDFE0015582A /* NoPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		139906271936DDFF0015582A /* NoPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1399063B1936DDFF0015582A /* Build configuration list for PBXNativeTarget "NoPassTests" */;
+			buildPhases = (
+				139906241936DDFF0015582A /* Sources */,
+				139906251936DDFF0015582A /* Frameworks */,
+				139906261936DDFF0015582A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1399062D1936DDFF0015582A /* PBXTargetDependency */,
+			);
+			name = NoPassTests;
+			productName = NoPassTests;
+			productReference = 139906281936DDFF0015582A /* NoPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139905FF1936DDFE0015582A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "KLab Inc";
+				TargetAttributes = {
+					139906271936DDFF0015582A = {
+						TestTargetID = 139906061936DDFE0015582A;
+					};
+				};
+			};
+			buildConfigurationList = 139906021936DDFE0015582A /* Build configuration list for PBXProject "NoPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 139905FE1936DDFE0015582A;
+			productRefGroup = 139906081936DDFE0015582A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139906061936DDFE0015582A /* NoPass */,
+				139906271936DDFF0015582A /* NoPassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139906051936DDFE0015582A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1362B82719864426003C79C4 /* NoPass.dat in Resources */,
+				13A5AB7D1980A7F5007ACFD6 /* NoPass256.png in Resources */,
+				13A5AB771980A7F5007ACFD6 /* eraser.png in Resources */,
+				13A5AB991980C05D007ACFD6 /* MapDialog.xib in Resources */,
+				13A5AB7A1980A7F5007ACFD6 /* NoPass32.png in Resources */,
+				13A5AB791980A7F5007ACFD6 /* NoPass16.png in Resources */,
+				13A5AB911980B928007ACFD6 /* Main.xib in Resources */,
+				139906151936DDFE0015582A /* InfoPlist.strings in Resources */,
+				13A5AB7B1980A7F5007ACFD6 /* NoPass64.png in Resources */,
+				13A5AB761980A7F5007ACFD6 /* edit.png in Resources */,
+				139906231936DDFF0015582A /* Images.xcassets in Resources */,
+				13A5AB781980A7F5007ACFD6 /* new.png in Resources */,
+				13A5AB7C1980A7F5007ACFD6 /* NoPass128.png in Resources */,
+				13A5AB751980A7F5007ACFD6 /* dropbox.png in Resources */,
+				13A5AB7F1980A7F5007ACFD6 /* NoPassStatus@2x.png in Resources */,
+				13A5AB861980AA8A007ACFD6 /* Localizable.strings in Resources */,
+				13A5AB801980A7F5007ACFD6 /* remove.png in Resources */,
+				13A5AB7E1980A7F5007ACFD6 /* NoPass512.png in Resources */,
+				13A5ABA51980D2C9007ACFD6 /* SyncOption.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139906261936DDFF0015582A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139906031936DDFE0015582A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A5AB601980A6FD007ACFD6 /* MyDropbox.m in Sources */,
+				13A5AB5E1980A6FD007ACFD6 /* MapDialog.m in Sources */,
+				13A5AB591980A6FD007ACFD6 /* AppController.m in Sources */,
+				13A5AB5A1980A6FD007ACFD6 /* AppData.m in Sources */,
+				13A5AB651980A6FD007ACFD6 /* Uty.m in Sources */,
+				13A5AB611980A6FD007ACFD6 /* MyTableView.m in Sources */,
+				13A5AB631980A6FD007ACFD6 /* SyncOption.m in Sources */,
+				13A5AB621980A6FD007ACFD6 /* MyTextView.m in Sources */,
+				13A5AB5B1980A6FD007ACFD6 /* AppDelegate.m in Sources */,
+				13A5AB671980A710007ACFD6 /* main.m in Sources */,
+				13A5AB5C1980A6FD007ACFD6 /* DropboxAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139906241936DDFF0015582A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1399062D1936DDFF0015582A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 139906061936DDFE0015582A /* NoPass */;
+			targetProxy = 1399062C1936DDFF0015582A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		139906131936DDFE0015582A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A5AB851980AA73007ACFD6 /* en */,
+				13A5AB8A1980ABEE007ACFD6 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13A5AB881980AA8A007ACFD6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A5AB871980AA8A007ACFD6 /* en */,
+				13A5AB891980ABD5007ACFD6 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		13A5AB8F1980B928007ACFD6 /* Main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A5AB901980B928007ACFD6 /* en */,
+				13A5AB921980B930007ACFD6 /* ja */,
+			);
+			name = Main.xib;
+			sourceTree = "<group>";
+		};
+		13A5AB971980C05D007ACFD6 /* MapDialog.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A5AB981980C05D007ACFD6 /* en */,
+				13A5AB9A1980C062007ACFD6 /* ja */,
+			);
+			name = MapDialog.xib;
+			sourceTree = "<group>";
+		};
+		13A5ABA31980D2C9007ACFD6 /* SyncOption.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A5ABA41980D2C9007ACFD6 /* en */,
+				13A5ABA61980D2CF007ACFD6 /* ja */,
+			);
+			name = SyncOption.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		139906361936DDFF0015582A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		139906371936DDFF0015582A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		139906391936DDFF0015582A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoPass/NoPass-Prefix.pch";
+				INFOPLIST_FILE = "NoPass/NoPass-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = NoPass;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1399063A1936DDFF0015582A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoPass/NoPass-Prefix.pch";
+				INFOPLIST_FILE = "NoPass/NoPass-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = NoPass;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1399063C1936DDFF0015582A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NoPass.app/Contents/MacOS/NoPass";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoPass/NoPass-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NoPassTests/NoPassTests-Info.plist";
+				PRODUCT_NAME = NoPassTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1399063D1936DDFF0015582A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NoPass.app/Contents/MacOS/NoPass";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoPass/NoPass-Prefix.pch";
+				INFOPLIST_FILE = "NoPassTests/NoPassTests-Info.plist";
+				PRODUCT_NAME = NoPassTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139906021936DDFE0015582A /* Build configuration list for PBXProject "NoPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139906361936DDFF0015582A /* Debug */,
+				139906371936DDFF0015582A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139906381936DDFF0015582A /* Build configuration list for PBXNativeTarget "NoPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139906391936DDFF0015582A /* Debug */,
+				1399063A1936DDFF0015582A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1399063B1936DDFF0015582A /* Build configuration list for PBXNativeTarget "NoPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1399063C1936DDFF0015582A /* Debug */,
+				1399063D1936DDFF0015582A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 139905FF1936DDFE0015582A /* Project object */;
+}

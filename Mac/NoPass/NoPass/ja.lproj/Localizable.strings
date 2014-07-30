@@ -1,0 +1,23 @@
+
+"MsgPleaseWait" = "しばらくお待ち下さい...";
+
+"WordFree" = "可変";
+"WordOK" = "OK";
+"WordCancel" = "キャンセル";
+"WordNAV" = "N/A";
+
+"MsgLinkedDropbox" = "Dropbox とのリンクを正常に確立しました";
+"MsgUnlinkedDropbox" = "Dropbox とのリンクを解除しました";
+"MsgSynced" = "マージずみのマップファイルを Dropbox へコピーしました";
+"MsgUploaded" = "Dropbox へファイルをアップロードしました";
+"MsgUploadError" = "Dropbox へのファイルアップロードに失敗しました";
+"MsgDownloadError" = "Dropbox からのファイルダウンロードに失敗しました";
+"MsgAlreadySynced" = "ローカルのマップファイルと Dropbox 上のマップファイルは同一です";
+
+"MsgMapNameIsNotGiven" = "マップ名が指定されていません";
+
+"MsgUnlinkDropbox" = "Dropbox とのリンクを解除します";
+"QueryUnlinkDropbox" = "解除後に再度 Dropbox と連携するにはあらためて認証が必要です。続行しますか？";
+
+"MsgDeleteRecord" = "データ削除の確認";
+"QueryDeleteRecord" = "選択中のマップデータを削除します。削除したデータは元に戻せませんが続行しますか？";
