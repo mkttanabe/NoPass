@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Copyright">Copyright &#169; 2014 KLab Inc.</string>
+    <string name="app_name">NoPass</string>
+    <string name="WordYes">はい</string>
+    <string name="WordNo">いいえ</string>
+    <string name="WordAbout">About</string>
+    <string name="WordMapList">マップデータの一覧</string>
+    <string name="WordUnlinkDropbox">Dropbox とのリンクを解除</string>
+    <string name="MsgCopiedToClipboard">クリップボードへコピーしました</string>
+    <string name="MsgDownloadedMapFileFromDropbox">Dropbox から最新のマップファイルを取得しました</string>
+    <string name="MsgFailedToLoadMapFile">マップファイルの読み込みに失敗しました</string>
+    <string name="MsgFailedToGenerateString">文字列の生成に失敗しました</string>
+    <string name="MsgFailedToGetFileFromDropbox">Dropbox からのファイル取得に失敗しました</string>
+    <string name="MsgNoMapFileInDropbox">Dropbox 上にマップファイルが存在しません</string>
+    <string name="MsgUnlinkDropbox">Dropbox とのリンクを解除してこのアプリケーションを終了します。よろしいですか？</string>
+    <string name="MsgDownloading">データを取得中&#8230;</string>
+</resources>

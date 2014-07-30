@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Copyright">Copyright &#169; 2014 KLab Inc.</string>
+    <string name="app_name">NoPass</string>
+    <string name="WordYes">Yes</string>
+    <string name="WordNo">No</string>
+    <string name="WordAbout">About</string>
+    <string name="WordMapList">List of map data</string>
+    <string name="WordUnlinkDropbox">Unlink Dropbox</string>    
+    <string name="MsgCopiedToClipboard">Copied to clipboard.</string>
+    <string name="MsgDownloadedMapFileFromDropbox">Downloaded the latest map file from Dropbox.</string>
+    <string name="MsgFailedToLoadMapFile">Failed to load map file.</string>
+    <string name="MsgFailedToGenerateString">Failed to generate string.</string>
+    <string name="MsgFailedToGetFileFromDropbox">Failed to download file from Dropbox.</string>    
+    <string name="MsgNoMapFileInDropbox">Map file is not found in dropbox.</string>
+    <string name="MsgUnlinkDropbox">Are you sure you want to unlink Dropbox and quit this application?</string>
+    <string name="MsgDownloading">Downloading data&#8230;</string>
+</resources>
