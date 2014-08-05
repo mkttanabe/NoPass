@@ -1,1 +1,40 @@
+About "NoPass"
 
+----------------------------------------
+
+NoPass は任意のフレーズを再現可能な所定のアスキー文字列へ変換するアプリケーションです。
+
+例："dog on snow" --> "<J3X3qw=b*dj"
+
+フレーズを変換するために NoPass はランダムに生成したデータから構成される「マップデータ」と呼ばれるフィルタを使用します。
+マップデータは Mac OS X 版の NoPass で自由に作成可能です。Android 版は Dropbox 経由でデータをダウンロードして使用します。
+
+パスワードの管理はアカウントが手元に増えるにつれて煩雑となり、パスワードそのものをどこかへ保存することが不安に感じられるケースもあるでしょう。NoPass をパスワード生成ツールとして使用すれば、パスワード自体をを保存することなく必要な時に所定のフレーズとマップデータから簡単にパスワードを再生することが可能です。
+
+Mac OS X 版: (Mac OS X 10.7 以降)
+http://dsas.blog.klab.org/data/nopass/mac/NoPass100.dmg
+
+Android 版: (Android 2.2 以降)
+https://play.google.com/store/apps/details?id=jp.klab.nopass
+
+----------------------------------------
+
+NoPass is an application to generate the reproducible ASCII text from given phrase.
+
+e.g. "dog on snow" --> "<J3X3qw=b*dj"
+
+To convert the phrase, NoPass uses the special filter called "map data" composed of randomly generated data.
+The map data can be created by NoPass for Mac OS X freely. In Android version, you can download the data via Dropbox.
+
+Password management becomes more complicated as your account increases. You might feel some anxiety about storing the password itself to somewhere.
+By using NoPass as a password generator, you can reproduce the password easily from your phrase and map data without storing the password.
+
+Mac OS X version: (OS X 10.7 or later)
+http://dsas.blog.klab.org/data/nopass/mac/NoPass100.dmg
+
+Android version: (Android 2.2 or later)
+https://play.google.com/store/apps/details?id=jp.klab.nopass
+
+----------------------------------------
+
+Copyright (C) 2014 KLab Inc.
